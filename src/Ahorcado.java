@@ -43,8 +43,8 @@ public class Ahorcado {
 
             if(String.valueOf(letrasAdivinadas).equals(palabraSecreta)){
                 palabraAdivinada = true;
+                System.out.println(String.valueOf(letrasAdivinadas));
                 intentos++;
-                break;
             }
         }
 
